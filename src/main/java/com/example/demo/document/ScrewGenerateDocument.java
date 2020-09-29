@@ -47,7 +47,8 @@ public class ScrewGenerateDocument {
                 //打开目录
                 .openOutputDir(true)
                 //文件类型
-                .fileType(EngineFileType.WORD)
+                .fileType(EngineFileType.WORD)//word文档格式
+//                .fileType(EngineFileType.MD)//word文档格式
                 //生成模板实现
                 .produceType(EngineTemplateType.freemarker)
                 //自定义文件名称
